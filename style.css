@@ -1,0 +1,51 @@
+html{
+    width: fit-content;
+    height:100%;
+    background-color: whitesmoke;
+}
+
+.heading {
+    background-color: blue;
+    text-align: center;
+    color: aquamarine;
+    
+}
+#users {
+    display: inline;
+    width: fit-content;
+}
+.heading2 {
+    text-align: center;
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    width: 100%;
+}
+.img {
+    width: 40px;
+    height: 40px;
+    margin-top: 9px;
+}
+.gen_div {
+    display: inline-block;
+    background-color: white;
+    margin: 15px;
+    width: 270px;
+    height: 220;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+.btn-class {
+    background-color: #4CAF50;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 16px;
+
+}
+button:hover, button:focus, button:active {
+    background-color: blueviolet;
+    cursor: pointer;
+}
